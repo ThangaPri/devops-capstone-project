@@ -135,7 +135,6 @@ class TestAccountService(TestCase):
 
 
     def test_get_account_list(self):
-        
         """It should Get a list of Accounts"""
         self._create_accounts(5)
         resp = self.client.get(BASE_URL)
